@@ -36,8 +36,10 @@ const blogPage = ({data}) => (
         }}
         >{post.node.frontmatter.title}</h4>
       </div>
-        <Link to={post.node.frontmatter.path}>Read More</Link>
-        <br/>
+        <Link to={post.node.frontmatter.path} 
+        style={{
+          padding:0,}}
+          >Read More</Link>
         <hr></hr>
       </div>
     ))}
