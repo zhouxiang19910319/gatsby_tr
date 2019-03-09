@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `slowpacedcoding`,
     description: `<slowpacedcoding.com, a place where we can talk about coding, as well as some other stuff too./>`,
-    author: `@zh0ux1ang`,
+    author: `Matt Zhou`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
