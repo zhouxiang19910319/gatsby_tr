@@ -2,42 +2,22 @@ import {Link} from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 import Jumbotron from 'react-bootstrap/Jumbotron'
+import logo from '../images/logo.png'
 
 const Header = ({ siteTitle }) => ( 
   <header>
   <Jumbotron style={
-    {background: `#fff5e8`,}
+    {background: `#fff5e8`,
+    display:`flex`,
+    flexDirection:`column`,
+    justifyContent:`center`,
+  }
   }>
-  <div style={
-    {
-      background: `#f47c48`,
-      width: `28rem`,
-      height:`4rem`,
-      margin:`0 auto`,
-      display:`flex`,
-      justifyContent:`center`,
-      alignItems:`center`,
-    }
-  }>
-  <h1 style = {
-    {
-      margin: 0,
-      fontFamily:`Montserrat`,
-      letterSpacing: `.3rem`,
-      fontWeight:300,
-    }
-  }>
-  <Link to = "/"
-  style = {
-    {
-      color: `white`,
-      textDecoration: `none`,
-    }
-  }>
-  {siteTitle}
-  </Link></h1>
-</div>
 
+  <Link to = "/"><img src={logo} alt="site_logo" style={{
+    display:`block`,
+    margin:`0 auto`,
+  }}/></Link>
 
 <p className="text-center" style={
   {

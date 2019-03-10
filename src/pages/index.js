@@ -29,6 +29,7 @@ const IndexPage = () => (
             fontFamily: `'Montserrat', sans-serif`,
             fontWeight: 400,
             marginTop:`1rem`,
+            color: `#f47c48`,
           }}>Bio</h3>
           <img src="https://res.cloudinary.com/zzrot/image/upload/v1549713970/Personal%20Portfolio%20Collection/Personal%20Portfolio%20Site%20Images/no_background.png" alt="profile_pic" style={{
             width:`100px`,
