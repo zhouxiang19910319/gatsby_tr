@@ -11,7 +11,7 @@ import Col from 'react-bootstrap/Col'
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="slowpacedcoding" keywords={[`slowpacedcoding`, `programming`, `Matt Zhou`]} />
+    <SEO title="slowpacedcoding" keywords={[`slowpacedcoding`, `programming`, `Matt Zhou`, `gatsbyJS`,`web development`,`zhouxiang19910319`,`web programming`]} />
 
     <Container>
       <Row>
