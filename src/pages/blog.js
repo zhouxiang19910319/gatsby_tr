@@ -4,11 +4,12 @@ import { Link } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-import 'bootstrap/dist/css/bootstrap.css';
+
+import 'bootstrap/dist/css/bootstrap.css'
 
 const blogPage = ({data}) => (
   <Layout>
-    <SEO title="slowpacedcoding" keywords={[`slowpacedcoding`, `web development`, `Matt Zhou`]} />
+  <SEO title="slowpacedcoding" keywords={[`slowpacedcoding`, `programming`, `Matt Zhou`, `gatsbyJS`,`web development`,`zhouxiang19910319`,`web programming`]} />
 
     <h3
     style={{
