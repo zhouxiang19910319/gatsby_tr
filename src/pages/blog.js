@@ -9,8 +9,6 @@ import 'bootstrap/dist/css/bootstrap.css'
 
 const blogPage = ({data}) => (
   <Layout>
-  <SEO title="slowpacedcoding" keywords={[`slowpacedcoding`, `programming`, `Matt Zhou`, `gatsbyJS`,`web development`,`zhouxiang19910319`,`web programming`]} />
-
     <h3
     style={{
       fontFamily: `'Montserrat', sans-serif`,
