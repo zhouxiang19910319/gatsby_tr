@@ -1,8 +1,5 @@
 import React from "react"
-import Layout from "./layout"
-// import SEO from "./seo"
 import profile_pic from "../images/profile_pic.png"
-// import 'bootstrap/dist/css/bootstrap.css'
 
 class Bio extends React.Component{
   render (){

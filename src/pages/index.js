@@ -7,6 +7,7 @@ import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import Bio from '../components/bio'
+import Blog from '../components/blog'
 
 
 
@@ -18,12 +19,15 @@ const IndexPage = () => (
       <Row>
         <Col xl={6} lg={6} md={12} sm={12} xs={12}>
           {/* BLOG POST SECTION IS HERE! */}
-          <Link to="/blog" style={{textDecoration:`none`,display:`inline-block`}}><h3 style={{
+          
+          {/*<Link to="/blog" style={{textDecoration:`none`,display:`inline-block`}}><h3 style={{
           fontFamily: `'Montserrat', sans-serif`,
           fontWeight: 400,
           color: `#f47c48`,
           marginLeft:`-1rem`,
-          }}>Blog Posts</h3></Link>
+          }}>Blog Posts</h3></Link> */}
+
+          <Blog />
         </Col>
 
         <Col xl={6} lg={6} md={12} sm={12} xs={12}>
