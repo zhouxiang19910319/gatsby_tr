@@ -1,10 +1,10 @@
 import React from "react"
-import { Link } from "gatsby"
-// import Layout from "../components/layout"
+import { Link,graphql,StaticQuery } from "gatsby"
 import 'bootstrap/dist/css/bootstrap.css'
 
 class Blog extends React.Component{
-  render({data}){
+  render(){
+    const { data } = this.props;
     return(
       <>
       <h3

@@ -27,7 +27,7 @@ const IndexPage = () => (
           marginLeft:`-1rem`,
           }}>Blog Posts</h3></Link> */}
 
-          <Blog />
+          <Blog/>
         </Col>
 
         <Col xl={6} lg={6} md={12} sm={12} xs={12}>
