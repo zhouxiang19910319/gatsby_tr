@@ -20,7 +20,7 @@ class Bio extends React.Component{
             fontFamily: `'Montserrat', sans-serif`,
           }}>
           Former student of Singapore Polytechnic, dropped out at the end of year two, had been
-          learning Web-Development since 2016. My goal is to become a web developer in an English speaking country.
+          learning Web-Development since 2016. My goal is to become a web developer in Singapore.
           </p>
 
           <h5 style={{

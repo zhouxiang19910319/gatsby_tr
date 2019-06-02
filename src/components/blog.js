@@ -1,5 +1,5 @@
 import React from "react"
-import { Link,graphql,StaticQuery } from "gatsby"
+import { Link,graphql } from "gatsby"
 import 'bootstrap/dist/css/bootstrap.css'
 
 class Blog extends React.Component{
@@ -7,8 +7,7 @@ class Blog extends React.Component{
     const { data } = this.props;
     return(
       <>
-      <h3
-      style={{
+      <h3 style={{
         fontFamily: `'Montserrat', sans-serif`,
         fontWeight: 700,
       }}
