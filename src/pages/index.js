@@ -19,7 +19,7 @@ const IndexPage = () => (
       <Row>
         <Col xl={6} lg={6} md={12} sm={12} xs={12}>
           {/* BLOG POST SECTION IS HERE! */}
-          {/*<Blog/>*/}
+          <Blog/>
         </Col>
 
         <Col xl={6} lg={6} md={12} sm={12} xs={12}>
