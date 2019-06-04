@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.css'
 
 const Blog = () => {
 
-  {/*DATA FROM GRAPH QL*/}
+
   const data = useStaticQuery(graphql`
   query BlogIndexQuery{
     allMarkdownRemark
@@ -25,7 +25,7 @@ const Blog = () => {
   `)
 
 
-  {/*ALL THE HTML AND CSS STUFF*/}
+
   return(
     <>
     <h3 style={{
