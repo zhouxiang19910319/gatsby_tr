@@ -28,11 +28,11 @@ const Blog = () => {
 
   return(
     <>
-    <h3 style={{
+    <h2 style={{
       fontFamily: `'Montserrat', sans-serif`,
-      fontWeight: 700,
+      fontWeight: 400,
     }}
-    >Posts</h3>
+    >Posts</h2>
     {data.allMarkdownRemark.edges.map(post=>(
       <div>
       <div key = {post.node.id}>
@@ -50,6 +50,8 @@ const Blog = () => {
           fontFamily: `'Montserrat', sans-serif`,
           fontWeight: 400,
           color: `#f47c48`,
+          marginBottom: `10px`,
+          marginTop:`10px`,
         }}
         >{post.node.frontmatter.title}</h4>
       </div>

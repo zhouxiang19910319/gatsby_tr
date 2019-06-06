@@ -5,9 +5,7 @@ title: "The most difficult things about learning to code by yourself — and how
 author: "Matt Zhou"
 ---
 
-
-
-## The most difficult things about learning to code by yourself — and how to tackle them
+# The most difficult things about learning to code by yourself — and how to tackle them
 
 ![“white book on brown wooden table” by [Alexander Michl](https://unsplash.com/@amichl?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com?utm_source=medium&utm_medium=referral)](https://cdn-images-1.medium.com/max/11622/0*yLaEVLIg1dFOUE5o)
 

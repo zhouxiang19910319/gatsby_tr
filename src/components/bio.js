@@ -5,10 +5,10 @@ class Bio extends React.Component{
   render (){
     return(
       <>
-      <h3 style={{
+      <h2 style={{
         fontFamily: `'Montserrat', sans-serif`,
-        fontWeight: 700,
-      }}>Bio</h3>
+        fontWeight: 400,
+      }}>Bio</h2>
 
       <img src={profile_pic} alt="profile_pic" style={{
             width:`100px`,
