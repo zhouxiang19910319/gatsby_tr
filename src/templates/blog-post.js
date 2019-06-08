@@ -5,8 +5,8 @@ import Layout from '../components/layout'
 
 import 'bootstrap/dist/css/bootstrap.css';
 import Container from 'react-bootstrap/Container'
-import Row from 'react-bootstrap/Row'
-import Col from 'react-bootstrap/Col'
+// import Row from 'react-bootstrap/Row'
+// import Col from 'react-bootstrap/Col'
 
 
 
@@ -17,10 +17,16 @@ export default function Template({ data }) {
     <Layout>
     <Container>
     <div>
-      <Link to="/" style={{border: `2px solid black`}}>Go Back</Link>
+      <Link to="/" style={{
+        padding: 0,
+      }}>Go Back</Link>
       <hr />
     
-      <small>
+      <small style={{
+        fontFamily: `'Montserrat', sans-serif`,
+        fontWeight: 300,
+        color: `#828282`,
+      }}>
         Posted by {post.frontmatter.author} on {post.frontmatter.date}
       </small>
       

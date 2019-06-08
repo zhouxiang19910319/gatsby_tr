@@ -1,4 +1,3 @@
-import {Link} from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 import Jumbotron from 'react-bootstrap/Jumbotron'
@@ -14,10 +13,10 @@ const Header = ({ siteTitle }) => (
   }
   }>
 
-  <Link to = "/"><img src={logo} alt="site_logo" style={{
+  <img src={logo} alt="site_logo" style={{
     display:`block`,
     margin:`0 auto`,
-  }}/></Link>
+  }}/>
 
 <p className="text-center" style={
   {
