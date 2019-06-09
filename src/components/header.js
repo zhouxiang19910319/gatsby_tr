@@ -22,7 +22,7 @@ const Header = ({ siteTitle }) => (
   {
   margin:`2rem`,
   fontFamily:`Montserrat`,
-  fontWeight:100,
+  fontWeight:200,
   letterSpacing:`.1rem`,
   }
 }>

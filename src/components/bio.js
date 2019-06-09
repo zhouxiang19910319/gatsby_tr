@@ -17,8 +17,8 @@ class Bio extends React.Component{
           <p style={{
             fontFamily: `'Montserrat', sans-serif`,
           }}>
-            Former student of Singapore Polytechnic, dropped out at the end of year two, had been
-            learning Web-Development since 2016. My goal is to become a web developer in Singapore. 
+          Matt Zhou.
+            Web Developer, Technical Blogger, freeCodeCamp Publisher.
           </p>
 
           <h5 style={{
