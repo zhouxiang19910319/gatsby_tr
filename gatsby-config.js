@@ -55,6 +55,25 @@ module.exports = {
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.app/offline
     // 'gatsby-plugin-offline',
+
+    // gatsby-remark-design-system
+    // https://github.com/LekoArts/gatsby-remark-design-system/blob/master/README.md
+    {
+      resolve: 'gatsby-transformer-remark',
+      options: {
+        plugins: [
+          {
+            resolve: 'gatsby-remark-design-system',
+            options: {
+              // Class prefix for all elements of the design system specimens
+              // This prefix also needs to be set on wrapper components in your Gatsby project
+              // Default value is 'grds' - so if you want you can leave out this option entirely
+              classPrefix: 'grds',
+            }
+          }
+        ],
+      },
+    },
   ],
 }
 
