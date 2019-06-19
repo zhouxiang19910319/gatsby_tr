@@ -13,15 +13,18 @@ import Container from 'react-bootstrap/Container'
 export default function Template({ data }) {
   const post = data.markdownRemark
 
+
+  //styling for the dangerouslySetInnerHTML
+  const styling_for_innerHTML = {
+    fontFamily: `'Montserrat', sans-serif`,
+    border: `1px solid red`,
+  }
+
   return (
     <Layout>
     <Container>
     <div>
-      <Link to="/" style={{
-        padding: 0,
-      }}>Go Back</Link>
-      <hr />
-    
+
       <small style={{
         fontFamily: `'Montserrat', sans-serif`,
         fontWeight: 300,
@@ -30,7 +33,14 @@ export default function Template({ data }) {
         Posted by {post.frontmatter.author} on {post.frontmatter.date}
       </small>
       
-      <div dangerouslySetInnerHTML={{ __html: post.html }} />
+      <div style={styling_for_innerHTML} dangerouslySetInnerHTML={{ __html: post.html }} />
+
+
+      <hr />
+      <Link to="/" style={{
+        padding: 0,
+      }}>Go Back</Link>
+      
     </div>
     </Container>
     </Layout>

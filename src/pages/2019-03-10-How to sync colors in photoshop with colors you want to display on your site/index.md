@@ -19,11 +19,6 @@ If you are running into issues that with the same color code (for example: #F47C
 By now, the color you see in your photoshop project should be the same you see in the webpage.
 
 ---
-
-If you want to protect your online privacy and give VPN a try, consider using my affiliate [link](https://www.expressrefer.com/refer-friend?referrer_id=9120004&utm_campaign=referrals&utm_medium=copy_link&utm_source=referral_dashboard) where you and I both can get one month of super fast VPN free of charge. 🤗 🤓 
-
-
-
-Or if you are trying to find a place to host your project, give Digital Ocean a try. [link](https://m.do.co/c/efd6c8c9a5c4) You will be getting $100 of credit, the only thing you need to do is to use it within 60 days.
+If you are trying to find a place to host your project, give Digital Ocean a try. [link](https://m.do.co/c/efd6c8c9a5c4) You will be getting $100 of credit, the only thing you need to do is to use it within 60 days.
 
 
