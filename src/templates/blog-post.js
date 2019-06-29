@@ -3,7 +3,7 @@ import Link from 'gatsby-link'
 import { graphql } from 'gatsby'
 import Layout from '../components/layout'
 
-import 'bootstrap/dist/css/bootstrap.css';
+import 'bootstrap/dist/css/bootstrap.css'
 import Container from 'react-bootstrap/Container'
 // import Row from 'react-bootstrap/Row'
 // import Col from 'react-bootstrap/Col'
@@ -18,6 +18,7 @@ export default function Template({ data }) {
   const styling_for_innerHTML = {
     fontFamily: `'Montserrat', sans-serif`,
     border: `1px solid red`,
+    padding: `.5rem .5rem`,
   }
 
   return (
