@@ -17,7 +17,7 @@ class Bio extends React.Component{
           <p style={{
             fontFamily: `'Montserrat', sans-serif`,
           }}>
-          Matt Zhou.
+          Matt Zhou<br></br>
             Web Developer, Technical Blogger, freeCodeCamp Publisher.
           </p>
 

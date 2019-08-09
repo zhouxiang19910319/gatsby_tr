@@ -12,7 +12,13 @@ const footer = ()=> (
   }}>
     © {new Date().getFullYear()}, Built with
     {` `}
-    <a href="https://www.gatsbyjs.org">Gatsby</a>
+    <a href="https://www.gatsbyjs.org"
+      style={
+        {
+          padding: `1rem 0`,
+        }
+      }
+    >Gatsby</a>
   </footer>
 )
 

@@ -39,15 +39,17 @@ const Header = ({ siteTitle }) => (
   
   style= {
     {
-      color:`inherit`,
+      color:`white`,
       padding:`.5rem`,
       transition:`all .3s`,
+      backgroundColor:`#f47c48`,
+      textDecoration:`none`,
     }
   }
 
   href="https://github.com/zhouxiang19910319"
   target="_blank" rel="noopener noreferrer">Matt
-  Zhou</a>.</blockquote>
+  Zhou</a></blockquote>
 </Jumbotron>
   
   
