@@ -4,6 +4,7 @@ import { graphql } from 'gatsby'
 import Layout from '../components/layout'
 
 import 'bootstrap/dist/css/bootstrap.css'
+import '../components/blog-post.module.css'
 import Container from 'react-bootstrap/Container'
 
 
